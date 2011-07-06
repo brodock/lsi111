@@ -1,0 +1,62 @@
+programa semantico_correto;
+
+inteiro i1 = 10;
+booleano achou= falso;
+caracter car = 'x';
+real re = 12.5E-10;
+
+inteiro i,j,k,n ;
+real a,b,c ;
+booleano b1,b2;
+caracter car1,car2,car3 ;
+cadeia [30] cad1;
+inteiro [10] x ;
+caracter[20]  y ;
+booleano[10] vb;
+
+metodo f (val b,v1:inteiro; ref d: booleano): booleano;
+caracter [15]  a,b1;
+{
+   leia (b,c, car1);
+   retorne b > v1;
+   enquanto i <= 10
+   faca {x[i]:=0;
+         b1[x[i]]:=a[1];
+         retorne f( x[i+1], i1, vb[ x[ x [ i ] ] ])}
+};
+metodo proc1 (ref x2 : inteiro; val x1 : caracter; ref x3:real);
+real a;
+inteiro c;
+{
+    enquanto i <= 10 faca
+    {
+      i:=i+ 1;
+      se f(c,i+j,b1)
+      entao x[i+1]:= x[i+1] * 2
+      senao x[i+1] := 0;
+    }
+
+};
+{
+   proc1(x[1],'a', b);
+
+   proc1(k, cad1[5*j], c);
+
+   proc1(i, car1, x[10*(x[1]*2)]);
+
+   x[i + 1]:= i* x[ j * (x[k*5] + x[(k-1)*5])];
+
+   escreva ( 4.5, cad1, y[i], x [ x[i * (j + 1)]  * i1 ], 'x'  );
+
+   enquanto car < 'z' faca
+   {
+      y[i]:= cad1[k];
+      car3:= y[i];
+      vb[ i - 9]:= f (x[1], 100, b1) e (y[i+1] > cad1 [ x [ j ] ] );
+   };
+   car2:=cad1[i*j];
+   cad1:=car2;
+   se (i>j) ou (a<>c) e (car1 = car2)
+   entao i:= j / x[9]
+   senao a:= (i + 1) / .57e-10;
+}.
